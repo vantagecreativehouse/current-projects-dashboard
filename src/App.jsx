@@ -83,8 +83,8 @@ const healthStyles = {
 };
 
 const signals = [
-  { label: 'What’s working', value: 'Local Vite build, Vercel auth/deploy, project map from Google Tasks / Hermes memory, bounded-worker operating model.' },
-  { label: 'What’s not yet working', value: 'GitHub repo creation is blocked by current GitHub token scope; live project data is not wired in yet.' },
+  { label: 'What’s working', value: 'Local Vite build, GitHub repo/push, Vercel auth/deploy, project map from Google Tasks / Hermes memory, bounded-worker operating model.' },
+  { label: 'What’s not yet working', value: 'Live project data is not wired in yet; next version should pull from Google Tasks / Drive / Hermes state.' },
   { label: 'Best next test', value: 'Connect this shell to Google Tasks / Drive and make project cards update automatically.' },
 ];
 
